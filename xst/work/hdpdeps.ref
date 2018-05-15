@@ -1,0 +1,6 @@
+V3 3
+FL D:/xilin/ALU/alu4bit.vhd 2018/05/09.12:28:59 O.87xd
+EN work/alu 1525843936 FL D:/xilin/ALU/alu4bit.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/NUMERIC_STD 1325952877
+AR work/alu/Behavioral 1525843937 \
+      FL D:/xilin/ALU/alu4bit.vhd EN work/alu 1525843936

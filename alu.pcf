@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Tue May 15 12:16:38 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "out_alu<0>" LOCATE = SITE "F9" LEVEL 1;
+COMP "out_alu<1>" LOCATE = SITE "E9" LEVEL 1;
+COMP "out_alu<2>" LOCATE = SITE "D11" LEVEL 1;
+COMP "out_alu<3>" LOCATE = SITE "C11" LEVEL 1;
+COMP "sel<0>" LOCATE = SITE "N17" LEVEL 1;
+COMP "sel<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "sel<2>" LOCATE = SITE "L14" LEVEL 1;
+SCHEMATIC END;
+

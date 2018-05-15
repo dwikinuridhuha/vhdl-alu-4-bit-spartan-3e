@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\xilin\ALU\alu.ncd
+OUTFILE=D:\xilin\ALU\alu.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\xilin\ALU
+LICENSE=WebPack
+USER_INFO=211484722_0_0_176

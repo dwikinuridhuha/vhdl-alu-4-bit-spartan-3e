@@ -1,0 +1,91 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf -ucf alu.ucf
+
+Design file:              alu.ncd
+Physical constraint file: alu.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+inp_a<0>       |out_alu<0>     |    8.525|
+inp_a<0>       |out_alu<1>     |   10.191|
+inp_a<0>       |out_alu<2>     |    9.372|
+inp_a<0>       |out_alu<3>     |    9.685|
+inp_a<1>       |out_alu<1>     |   11.075|
+inp_a<1>       |out_alu<2>     |   10.036|
+inp_a<1>       |out_alu<3>     |   10.998|
+inp_a<2>       |out_alu<2>     |    9.158|
+inp_a<2>       |out_alu<3>     |    9.763|
+inp_a<3>       |out_alu<3>     |    9.149|
+inp_b<0>       |out_alu<0>     |    8.894|
+inp_b<0>       |out_alu<1>     |   10.861|
+inp_b<0>       |out_alu<2>     |   10.042|
+inp_b<0>       |out_alu<3>     |   10.355|
+inp_b<1>       |out_alu<1>     |   10.463|
+inp_b<1>       |out_alu<2>     |    9.424|
+inp_b<1>       |out_alu<3>     |   10.386|
+inp_b<2>       |out_alu<2>     |    9.188|
+inp_b<2>       |out_alu<3>     |    9.793|
+inp_b<3>       |out_alu<3>     |    9.047|
+sel<0>         |out_alu<0>     |   10.721|
+sel<0>         |out_alu<1>     |   14.008|
+sel<0>         |out_alu<2>     |   13.189|
+sel<0>         |out_alu<3>     |   13.502|
+sel<1>         |out_alu<0>     |    9.603|
+sel<1>         |out_alu<1>     |   13.561|
+sel<1>         |out_alu<2>     |   12.742|
+sel<1>         |out_alu<3>     |   13.143|
+sel<2>         |out_alu<0>     |   10.651|
+sel<2>         |out_alu<1>     |   14.080|
+sel<2>         |out_alu<2>     |   13.261|
+sel<2>         |out_alu<3>     |   13.574|
+---------------+---------------+---------+
+
+
+Analysis completed Tue May 15 12:16:57 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 167 MB
+
+
+

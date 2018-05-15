@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4 (64-bit)
+# Build 157570 by hdbuild on Fri Dec 16 13:06:31 MST 2011
+# Start of session at: Wed May 09 12:12:36 2018
+# Process ID: 2468
+# Log file: D:/xilin/ALU/planAhead_run_1/planAhead.log
+# Journal file: D:/xilin/ALU/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/xilin/ALU/pa.fromHdl.tcl

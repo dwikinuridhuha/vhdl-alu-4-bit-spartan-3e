@@ -1,0 +1,16 @@
+
+
+NET "out_alu[0]" LOC = F9;
+NET "out_alu[1]" LOC = E9;
+NET "out_alu[2]" LOC = D11;
+NET "out_alu[3]" LOC = C11;
+NET "sel[0]" LOC = N17;
+NET "sel[1]" LOC = H18;
+NET "sel[2]" LOC = L14;
+
+
+NET "sel[2]" PULLUP;
+NET "sel[1]" PULLUP;
+NET "sel[0]" PULLUP;
+
+# PlanAhead Generated physical constraints 
